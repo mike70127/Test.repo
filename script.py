@@ -1,9 +1,4 @@
-import math
-import sys
-from os import rename
+import requests
 
-import request
-
-name = input("Your Name? ")
-print("Hello, ", name)
-
+r = requests.get("")
+print(r.status_code)
